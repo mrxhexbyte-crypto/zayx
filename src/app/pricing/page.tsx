@@ -108,7 +108,11 @@ export default function PricingPage() {
               className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-8"
               variants={itemVariants}
             >
+<<<<<<< HEAD
               Choose the plan that's right for your business. No hidden fees.
+=======
+              Choose the plan that&apos;s right for your business. No hidden fees.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
             </motion.p>
 
             {/* BILLING TOGGLE */}

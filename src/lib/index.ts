@@ -23,8 +23,16 @@ export {
 
 // Utility functions
 export { cn } from './utils';
+<<<<<<< HEAD
 export { formatters } from './formatters';
 export { validators } from './validators';
 
 // Constants
 export * from './constants';
+=======
+export { formatPrice, formatDate, formatBytes } from './formatters';
+export { emailSchema, passwordSchema } from './validators';
+
+// Constants
+// export * from './constants';
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)

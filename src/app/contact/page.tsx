@@ -58,7 +58,11 @@ export default function ContactPage() {
               className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto"
               variants={itemVariants}
             >
+<<<<<<< HEAD
               Have questions? We'd love to hear from you. Our team is here to help.
+=======
+              Have questions? We&apos;d love to hear from you. Our team is here to help.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
             </motion.p>
           </motion.div>
         </section>
@@ -161,7 +165,11 @@ export default function ContactPage() {
                         className="p-4 bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg flex items-center gap-2 text-green-700 dark:text-green-400"
                       >
                         <CheckCircle className="w-5 h-5" />
+<<<<<<< HEAD
                         <span>Thank you! We'll get back to you soon.</span>
+=======
+                        <span>Thank you! We&apos;ll get back to you soon.</span>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                       </motion.div>
                     ) : (
                       <Button 

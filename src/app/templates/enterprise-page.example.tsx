@@ -162,7 +162,11 @@ export default function EnterprisePage() {
               {/* Molecules */}
               <Card variant="elevated">
                 <VStack gap="md">
+<<<<<<< HEAD
                   <Badge variant="secondary">Molecules</Badge>
+=======
+                  <Badge variant="primary">Molecules</Badge>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   <Text weight="bold" size="lg">
                     Common Components
                   </Text>

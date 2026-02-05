@@ -100,7 +100,11 @@ class RecommendationEngine {
       .filter(p => (p.rating || 0) >= 4.5)
       .forEach(product => {
         const entry = scores.get(product.id)!;
+<<<<<<< HEAD
         entry.score += (p.rating || 4) / 10; // Boost by rating
+=======
+        entry.score += (product.rating || 4) / 10; // Boost by rating
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
         if (!entry.reasons.includes('Highly rated')) {
           entry.reasons.push('Highly rated');
         }

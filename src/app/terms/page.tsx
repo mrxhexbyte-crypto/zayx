@@ -45,21 +45,33 @@ export default function TermsPage() {
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">1. Agreement to Terms</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     These Terms of Service ("Terms") constitute a legal agreement between you and Zayx regarding your use of our website, mobile application, and services. By accessing or using Zayx, you agree to be bound by these Terms. If you do not agree to abide by the above, please do not use this service.
+=======
+                    These Terms of Service (&quot;Terms&quot;) constitute a legal agreement between you and Zayx regarding your use of our website, mobile application, and services. By accessing or using Zayx, you agree to be bound by these Terms. If you do not agree to abide by the above, please do not use this service.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">2. Use License</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+<<<<<<< HEAD
                     Permission is granted to temporarily download one copy of the materials (information or software) on Zayx's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+=======
+                    Permission is granted to temporarily download one copy of the materials (information or software) on Zayx&apos;s website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-400">
                     <li>Modify or copy the materials</li>
                     <li>Use the materials for any commercial purpose or for any public display</li>
                     <li>Attempt to decompile or reverse engineer any software contained on the website</li>
                     <li>Remove any copyright or other proprietary notations from the materials</li>
+<<<<<<< HEAD
                     <li>Transmit the materials to anyone else or "mirror" the materials on any other server</li>
+=======
+                    <li>Transmit the materials to anyone else or &quot;mirror&quot; the materials on any other server</li>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </ul>
                 </div>
 
@@ -73,28 +85,44 @@ export default function TermsPage() {
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">4. Disclaimer of Warranties</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     The materials on Zayx's website are provided on an 'as is' basis. Zayx makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+=======
+                    The materials on Zayx&apos;s website are provided on an &apos;as is&apos; basis. Zayx makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">5. Limitations of Liability</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     In no event shall Zayx or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Zayx's website, even if Zayx or an authorized representative has been notified orally or in writing of the possibility of such damage.
+=======
+                    In no event shall Zayx or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Zayx&apos;s website, even if Zayx or an authorized representative has been notified orally or in writing of the possibility of such damage.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">6. Accuracy of Materials</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     The materials appearing on Zayx's website could include technical, typographical, or photographic errors. Zayx does not warrant that any of the materials on its website are accurate, complete, or current. Zayx may make changes to the materials contained on its website at any time without notice.
+=======
+                    Zayx does not warrant that any of the materials on its website are accurate, complete, or current. Zayx may make changes to the materials contained on its website at any time without notice.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">7. Links</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     Zayx has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Zayx of the site. Use of any such linked website is at the user's own risk.
+=======
+                    Zayx has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Zayx of the site. Use of any such linked website is at the user&apos;s own risk.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 

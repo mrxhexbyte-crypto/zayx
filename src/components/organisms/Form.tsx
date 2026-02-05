@@ -85,7 +85,11 @@ interface FormFieldProps {
   disabled?: boolean;
   icon?: React.ReactNode;
   validate?: (value: any) => boolean | string;
+<<<<<<< HEAD
   render?: (props: any) => React.ReactNode;
+=======
+  render?: (props: any) => React.ReactElement;
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 }
 
 export const FormField: React.FC<FormFieldProps> = ({

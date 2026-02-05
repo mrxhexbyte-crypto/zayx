@@ -26,7 +26,11 @@ export default function AdminLayout({
       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white mb-4">Access Denied</h1>
+<<<<<<< HEAD
           <p className="text-slate-400 mb-6">You don't have admin permission to access this area.</p>
+=======
+          <p className="text-slate-400 mb-6">You don&apos;t have admin permission to access this area.</p>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
           <Link href="/">
             <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white">Go to Home</Button>
           </Link>

@@ -1,7 +1,11 @@
 import React from 'react';
 import { designTokens } from '@/lib/design-tokens';
 
+<<<<<<< HEAD
 type BoxProps = React.HTMLAttributes<HTMLDivElement> & {
+=======
+export type BoxProps = React.HTMLAttributes<HTMLDivElement> & {
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   as?: React.ElementType;
   padding?: keyof typeof designTokens.spacing;
   margin?: keyof typeof designTokens.spacing;
@@ -73,7 +77,11 @@ export const Box = React.forwardRef<HTMLDivElement, BoxProps>(
       width,
       height,
       borderRadius: radius ? designTokens.borderRadius[radius as keyof typeof designTokens.borderRadius] : undefined,
+<<<<<<< HEAD
       boxShadow: shadow ? designTokens.shadows[shadow as keyof typeof designTokens.shadows] : undefined,
+=======
+      boxShadow: shadow ? (designTokens.shadows[shadow as keyof typeof designTokens.shadows] as any) : undefined,
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
       backgroundColor: bgColor,
       borderColor,
       border,

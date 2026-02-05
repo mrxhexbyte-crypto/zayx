@@ -133,7 +133,11 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
                   bgColor="white"
                   borderColor="orange-200"
                   border="1px solid"
+<<<<<<< HEAD
                   padding="3"
+=======
+                  padding={3}
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   borderRadius="md"
                   className="text-xs overflow-auto max-h-40 font-mono"
                 >

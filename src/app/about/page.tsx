@@ -57,7 +57,11 @@ export default function AboutPage() {
               className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto mb-8"
               variants={itemVariants}
             >
+<<<<<<< HEAD
               We're on a mission to revolutionize online shopping with AI, real-time intelligence, and unparalleled customer experience.
+=======
+              We&apos;re on a mission to revolutionize online shopping with AI, real-time intelligence, and unparalleled customer experience.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
             </motion.p>
 
             <motion.div variants={itemVariants}>

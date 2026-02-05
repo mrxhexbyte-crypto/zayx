@@ -211,6 +211,7 @@ export default function ResourcesPage() {
                 viewport={{ once: true }}
               >
                 <div className="text-slate-400 text-sm font-mono">
+<<<<<<< HEAD
                   <div className="text-cyan-400">// Get product recommendations</div>
                   <div className="mt-4">
                     <span className="text-pink-400">const</span> response = <span className="text-orange-400">await</span> fetch(
@@ -220,6 +221,17 @@ export default function ResourcesPage() {
                   <div className="ml-4">headers: {`{`}</div>
                   <div className="ml-8">'Content-Type': <span className="text-green-400">'application/json'</span>,</div>
                   <div className="ml-8">'Authorization': <span className="text-green-400">`Bearer ${'${token}'}`</span>,</div>
+=======
+                  <div className="text-cyan-400">{/* Get product recommendations */}</div>
+                  <div className="mt-4">
+                    <span className="text-pink-400">const</span> response = <span className="text-orange-400">await</span> fetch(
+                    <span className="text-green-400">&apos;/api/ai/recommend&apos;</span>, {`{`}
+                  </div>
+                  <div className="ml-4">method: <span className="text-green-400">&apos;POST&apos;</span>,</div>
+                  <div className="ml-4">headers: {`{`}</div>
+                  <div className="ml-8">&apos;Content-Type&apos;: <span className="text-green-400">&apos;application/json&apos;</span>,</div>
+                  <div className="ml-8">&apos;Authorization&apos;: <span className="text-green-400">`Bearer ${'${token}'}`</span>,</div>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   <div className="ml-4">{`}`},</div>
                   <div className="ml-4">body: JSON.stringify({`{`}</div>
                   <div className="ml-8">userId: <span className="text-blue-400">user.id</span>,</div>

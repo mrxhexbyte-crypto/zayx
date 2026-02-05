@@ -1,7 +1,11 @@
 import React from 'react';
 import { Flex, type FlexProps } from './Flex';
 
+<<<<<<< HEAD
 type StackProps = Omit<FlexProps, 'direction'> & {
+=======
+export type StackProps = Omit<FlexProps, 'direction'> & {
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   direction?: 'vertical' | 'horizontal';
 };
 

@@ -24,7 +24,11 @@ export function ChatBox({ isOpen: initialOpen = true, onClose, position = 'botto
   const { isListening, isGenerating, transcript, startListening, stopListening, playAudio } = useVoice();
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+<<<<<<< HEAD
   const suggestions = getContextualSuggestions(pathname);
+=======
+  const suggestions = getContextualSuggestions(pathname || '/');
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
   // Auto-scroll to latest message
   useEffect(() => {

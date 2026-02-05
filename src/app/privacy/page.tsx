@@ -45,7 +45,11 @@ export default function PrivacyPage() {
                 <div>
                   <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">1. Introduction</h2>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+<<<<<<< HEAD
                     Zayx ("we", "us", "our", or "Company") operates the zayx.io website and the Zayx mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+=======
+                    Zayx (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;, or &quot;Company&quot;) operates the zayx.io website and the Zayx mobile application (the &quot;Service&quot;). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                   </p>
                 </div>
 

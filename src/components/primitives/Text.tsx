@@ -2,8 +2,13 @@ import React from 'react';
 import { Box, type BoxProps } from './Box';
 import { designTokens } from '@/lib/design-tokens';
 
+<<<<<<< HEAD
 type TextProps = BoxProps & {
   as?: 'p' | 'span' | 'div' | 'label';
+=======
+export type TextProps = BoxProps & {
+  as?: 'p' | 'span' | 'div' | 'label' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   size?: keyof typeof designTokens.typography.fontSize;
   weight?: keyof typeof designTokens.typography.fontWeight;
   color?: React.CSSProperties['color'];
@@ -19,7 +24,11 @@ type TextProps = BoxProps & {
   variant?: 'body' | 'caption' | 'label' | 'code';
 };
 
+<<<<<<< HEAD
 export const Text = React.forwardRef<HTMLElement, TextProps>(
+=======
+export const Text = React.forwardRef<HTMLDivElement, TextProps>(
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   (
     {
       as = 'p',

@@ -1,7 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import { useState } from 'react';
+=======
+import { useState, useEffect } from 'react';
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
 interface HelpfulActionProps {
   action: string;
@@ -24,7 +28,11 @@ export function HelpfulAction({
 }: HelpfulActionProps) {
   const [show, setShow] = useState(true);
 
+<<<<<<< HEAD
   React.useEffect(() => {
+=======
+  useEffect(() => {
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
     if (!autoHide) return;
     const timer = setTimeout(() => setShow(false), duration);
     return () => clearTimeout(timer);

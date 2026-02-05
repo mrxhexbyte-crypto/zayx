@@ -1,7 +1,11 @@
 import React from 'react';
 import { Box, type BoxProps } from './Box';
 
+<<<<<<< HEAD
 type GridProps = BoxProps & {
+=======
+export type GridProps = BoxProps & {
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   columns?: number | string;
   rows?: number | string;
   gap?: string | number;

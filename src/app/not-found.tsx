@@ -27,7 +27,11 @@ export default function NotFound() {
 
           {/* Description */}
           <p className="text-lg text-slate-400 mb-8 leading-relaxed max-w-lg mx-auto">
+<<<<<<< HEAD
             Oops! We couldn't find the page you're looking for. It might have been moved, deleted, or never existed.
+=======
+            Oops! We couldn&apos;t find the page you&apos;re looking for. It might have been moved, deleted, or never existed.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
           </p>
 
           {/* CTA Buttons */}

@@ -201,7 +201,11 @@ export default function CaseStudiesPage() {
                         <div className="flex gap-2 mb-2">
                           <Quote className="w-4 h-4 text-blue-600 dark:text-cyan-400 flex-shrink-0" />
                           <p className="text-sm italic text-slate-700 dark:text-slate-300">
+<<<<<<< HEAD
                             "{study.testimonial.text}"
+=======
+                            &quot;{study.testimonial.text}&quot;
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                           </p>
                         </div>
                         <p className="text-xs font-semibold text-slate-900 dark:text-white ml-6">

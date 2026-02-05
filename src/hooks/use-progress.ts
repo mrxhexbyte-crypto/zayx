@@ -83,6 +83,13 @@ export function useCheckoutProgress() {
   const { completeStep } = useProgressStore();
 
   return {
+<<<<<<< HEAD
+=======
+    trackCheckoutStart: useCallback(() => {
+      completeStep('checkout-started');
+    }, [completeStep]),
+
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
     trackShippingInfo: useCallback(() => {
       completeStep('shipping-info');
     }, [completeStep]),
@@ -112,5 +119,9 @@ export function useProgressVisibility(
     } else {
       hideProgress();
     }
+<<<<<<< HEAD
   }, [show, showProgress, hideProgress, ...dependencies]);
+=======
+  }, [show, showProgress, hideProgress]);
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 }

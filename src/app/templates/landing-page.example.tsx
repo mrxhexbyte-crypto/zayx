@@ -169,7 +169,11 @@ export default function LandingPage() {
 
                 <Quote className="w-5 h-5 text-slate-400 opacity-50" />
 
+<<<<<<< HEAD
                 <Text className="italic">"{testimonial.text}"</Text>
+=======
+                <Text className="italic">&quot;{testimonial.text}&quot;</Text>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
                 <VStack gap="xs" className="pt-4 border-t border-slate-200 dark:border-slate-700">
                   <Text weight="bold" size="sm">

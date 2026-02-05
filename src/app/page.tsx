@@ -449,7 +449,11 @@ export default function HomePage() {
                       <p className="text-sm text-slate-600 dark:text-slate-400">{testimonial.role}</p>
                     </div>
                   </div>
+<<<<<<< HEAD
                   <p className="text-slate-700 dark:text-slate-300 italic">"{testimonial.quote}"</p>
+=======
+                  <p className="text-slate-700 dark:text-slate-300 italic">&quot;{testimonial.quote}&quot;</p>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
                 </motion.div>
               ))}
             </div>

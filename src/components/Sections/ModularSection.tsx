@@ -41,7 +41,11 @@ export function ModularSection({
           transition: { duration: 0.5, ease: 'easeOut' },
         },
       }
+<<<<<<< HEAD
     : {};
+=======
+    : undefined;
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
   return (
     <motion.section

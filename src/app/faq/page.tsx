@@ -331,7 +331,11 @@ export default function FAQPage() {
               whileInView="visible"
               viewport={{ once: true }}
             >
+<<<<<<< HEAD
               <h2 className="text-4xl font-bold mb-4">Didn't find your answer?</h2>
+=======
+              <h2 className="text-4xl font-bold mb-4">Didn&apos;t find your answer?</h2>
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
               <p className="text-xl mb-8 opacity-90">
                 Our AI assistant and support team are here to help 24/7
               </p>

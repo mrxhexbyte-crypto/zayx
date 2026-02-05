@@ -75,7 +75,11 @@ function StatCard({
               ? 'bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400'
               : 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400'
           }`}>
+<<<<<<< HEAD
             {typeof Icon === 'string' ? Icon : <Icon />}
+=======
+            {Icon}
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
           </Box>
         </HStack>
 
@@ -201,7 +205,10 @@ export default function DashboardPage() {
               <Input
                 placeholder="Search..."
                 icon={<Search className="w-4 h-4" />}
+<<<<<<< HEAD
                 size="sm"
+=======
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
               />
             </div>
             <Button variant="ghost" size="sm">👤</Button>
@@ -219,7 +226,11 @@ export default function DashboardPage() {
                 Dashboard
               </Text>
               <Text className="text-slate-600 dark:text-slate-400">
+<<<<<<< HEAD
                 Welcome back! Here's what's happening with your business today.
+=======
+                Welcome back! Here&apos;s what&apos;s happening with your business today.
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
               </Text>
             </VStack>
             <Button>

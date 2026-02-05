@@ -1,7 +1,11 @@
 import React from 'react';
 import { Box, type BoxProps } from './Box';
 
+<<<<<<< HEAD
 type FlexProps = BoxProps & {
+=======
+export type FlexProps = BoxProps & {
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
   direction?: 'row' | 'column' | 'row-reverse' | 'column-reverse';
   align?: 'start' | 'center' | 'end' | 'stretch' | 'baseline';
   justify?: 'start' | 'center' | 'end' | 'space-between' | 'space-around' | 'space-evenly';
@@ -48,8 +52,12 @@ export const Flex = React.forwardRef<HTMLDivElement, FlexProps>(
         alignItems={alignMap[align]}
         justifyContent={justifyMap[justify]}
         gap={typeof gap === 'string' ? gap : gap ? `${gap}px` : undefined}
+<<<<<<< HEAD
         style={{ flexWrap: wrap, ...props.style }}
         flex={flex}
+=======
+        style={{ flexWrap: wrap, flex, ...props.style }}
+>>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
         {...props}
       />
     );
