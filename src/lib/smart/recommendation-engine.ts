@@ -144,8 +144,8 @@ class RecommendationEngine {
 
     // Tags overlap (weight: 0.3)
     if (product1.tags && product2.tags) {
-      const commonTags = product1.tags.filter(tag => product2.tags.includes(tag)).length;
-      const totalTags = new Set([...product1.tags, ...product2.tags]).size;
+      const commonTags = product1.tags.filter(tag => (product2.tags || []).includes(tag)).length;
+      const totalTags = new Set([...product1.tags, ...(product2.tags || [])]).size;
       const tagsOverlap = totalTags > 0 ? commonTags / totalTags : 0;
       similarity += tagsOverlap * 0.3;
     }
