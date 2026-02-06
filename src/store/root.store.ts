@@ -109,6 +109,7 @@ export const createUserStore = () =>
             if (state.user) {
               state.user.preferences = { ...state.user.preferences, ...prefs };
             }
+            return state;
           }),
 
         logout: () =>
