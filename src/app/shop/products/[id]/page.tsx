@@ -24,11 +24,7 @@ export default function ProductDetailPage() {
   const { trackClick, trackAddToCart, trackPurchase } = useTrackInteraction();
 
   // Track product view
-<<<<<<< HEAD
-  useTrackProductView(params?.id, product);
-=======
   useTrackProductView(params?.id, product || undefined);
->>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
   useEffect(() => {
     const fetchData = async () => {

@@ -120,11 +120,7 @@ export function useTrackInteraction() {
  * Hook to get user analytics
  */
 export function useUserAnalytics() {
-<<<<<<< HEAD
-  const [analytics, setAnalytics] = useState(null);
-=======
   const [analytics, setAnalytics] = useState<any>(null);
->>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
 
   useEffect(() => {
     const data = behaviorTracker.getAnalytics();

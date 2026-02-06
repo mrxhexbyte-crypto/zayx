@@ -77,26 +77,11 @@ export async function GET(req: NextRequest) {
     }
 
     // Fallback to demo data
-<<<<<<< HEAD
     const filteredProducts = filterSampleProducts({
       category: category || undefined,
       minPrice: minPrice ? parseFloat(minPrice) : undefined,
       maxPrice: maxPrice ? parseFloat(maxPrice) : undefined,
       search: search || undefined,
-=======
-    let filteredProducts = SAMPLE_PRODUCTS.filter(product => {
-      if (category && category !== 'all' && product.category !== category) return false;
-      if (minPrice && product.price < parseFloat(minPrice)) return false;
-      if (maxPrice && product.price > parseFloat(maxPrice)) return false;
-      if (search) {
-        const searchLower = search.toLowerCase();
-        if (!product.name.toLowerCase().includes(searchLower) &&
-            !product.description.toLowerCase().includes(searchLower)) {
-          return false;
-        }
-      }
-      return true;
->>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
     });
 
     // Sort

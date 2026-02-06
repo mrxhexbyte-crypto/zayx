@@ -131,11 +131,7 @@ export default function LoginPage() {
         </form>
 
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
-<<<<<<< HEAD
-          <p className="text-slate-400 mb-4">Don't have an account?</p>
-=======
           <p className="text-slate-400 mb-4">Don&apos;t have an account?</p>
->>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
           <Link href="/auth/signup">
             <Button variant="outline" className="w-full border-white/20 text-slate-300 hover:text-cyan-400 hover:border-cyan-400/50">
               Create Account

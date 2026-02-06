@@ -24,51 +24,6 @@ export default function ProductsPage() {
   });
   const { trackSearch } = useTrackInteraction();
 
-<<<<<<< HEAD
-  const fetchProducts = () => {
-    setIsLoading(true);
-    try {
-      // Filter products
-      let filtered = SAMPLE_PRODUCTS.filter(product => {
-        if (filters.category && product.category !== filters.category) return false;
-        if (filters.minPrice && product.price < filters.minPrice) return false;
-        if (filters.maxPrice && product.price > filters.maxPrice) return false;
-        if (filters.search) {
-          const search = filters.search.toLowerCase();
-          if (!product.name.toLowerCase().includes(search) &&
-              !product.description.toLowerCase().includes(search)) {
-            return false;
-          }
-        }
-        return true;
-      });
-
-      // Sort products
-      switch (sortBy) {
-        case 'price-low':
-          filtered.sort((a, b) => a.price - b.price);
-          break;
-        case 'price-high':
-          filtered.sort((a, b) => b.price - a.price);
-          break;
-        case 'rating':
-          filtered.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-          break;
-        case 'newest':
-          filtered.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
-          break;
-      }
-
-      setProducts(filtered);
-    } catch (error) {
-      console.error('Failed to fetch products:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  useEffect(() => {
-=======
   useEffect(() => {
     const fetchProducts = () => {
       setIsLoading(true);
@@ -111,8 +66,6 @@ export default function ProductsPage() {
         setIsLoading(false);
       }
     };
-
->>>>>>> 1770abf (Update package.json and improve text formatting across multiple components)
     fetchProducts();
   }, [filters, sortBy]);
 
