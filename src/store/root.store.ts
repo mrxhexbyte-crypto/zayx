@@ -85,7 +85,7 @@ export interface UserState {
 
   // Actions
   setUser: (user: UserState['user']) => void;
-  updatePreferences: (prefs: Partial<UserState['user']['preferences']>) => void;
+  updatePreferences: (prefs: Partial<NonNullable<UserState['user']>['preferences']>) => void;
   logout: () => void;
   setLoading: (loading: boolean) => void;
 }
